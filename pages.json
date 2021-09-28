@@ -1,0 +1,52 @@
+{
+	"pages": [
+		{
+            "path" : "pages/info/info",
+            "style" :
+            {
+            	"navigationBarTextStyle": "white",
+                "navigationBarTitleText": "DOM Chain Trace",
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView": {
+            			"type": "float"
+            		},
+            		"titleNView":false,
+            		"animationType": "fade-in",
+            		"background": "transparent",
+            		"backgroundColor": "rgba(0,0,0,.0)", 
+            		"webviewBGTransparent":true,
+            		"mask":"none",
+            		"opacity":0.9
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/certificate/certificate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "DOM Chain Trace",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/web-view/web-view",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
